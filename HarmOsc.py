@@ -4,6 +4,8 @@ import seaborn as sns
 sns.set_style('whitegrid')
 plt.rc('figure', figsize=[5,5])
 
+# Added changes for purpose of Assignment 4
+
 def expEuler(x0, v0, h):
     '''Given initial conditions, runs the explicit Euler method and returns
     x values, v values, t values, and the h used.'''
