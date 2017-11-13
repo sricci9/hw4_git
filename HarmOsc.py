@@ -57,8 +57,8 @@ def eulerPlot(h, xVals, vVals, tVals, impExp):
     plt.plot(tVals, vVals, color='blue', label='v(t)')
     plt.legend()
     plt.xlabel('t')
-    fileString = 'EulerOsc_x0='+str(xVals[0])+'_v0='+str(vVals[0])+\
-    '_h='+str(round(h,3))+'.png'
+    fileString = 'EulerOsc_x0_'+str(xVals[0])+'_v0_'+str(vVals[0])+\
+    '_h_'+str(round(h,3))+'.png'
     assert impExp in ['imp', 'exp', 'sym']
     if impExp == 'imp': fileString = 'imp' + fileString
     plt.savefig(fileString)
@@ -80,7 +80,7 @@ def eulerError(impExp):
     plt.plot(tVals, errV, color='blue', label='v error')
     plt.legend()
     plt.xlabel('t')
-    fileString = 'ErrorOsc_x0=1.0_v0=0.0_h='+str(round(h,3))+'.png'
+    fileString = 'ErrorOsc_x0_1.0_v0_0.0_h_'+str(round(h,3))+'.png'
     if impExp == 'imp': fileString = 'imp' + fileString
     plt.savefig(fileString)
     plt.clf()
@@ -175,3 +175,6 @@ def figGen():
     phaseSpace(symEuler2[1], symEuler2[2], symEuler2[3], 'sym')
     allPhaseSpace(1, 0, np.pi/100)
     Energy(symEuler1[1], symEuler1[2], symEuler1[3], 'sym')
+
+# Execute figGen to get all of the figures
+figGen()
