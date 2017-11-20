@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.7)  12 NOV 2017 20:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.7)  19 NOV 2017 22:07
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **Homework4.tex
 (./Homework4.tex
@@ -459,7 +458,7 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks24
 \verbatim@in@stream=\read1
 )
-No file Homework4.aux.
+(./Homework4.aux)
 \openout1 = `Homework4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -474,6 +473,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
+
 (/usr/local/texlive/2016basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count108
@@ -788,19 +788,19 @@ Overfull \hbox (25.94928pt too wide) in paragraph at lines 177--179
 [][][][][][][][][][][][][][][][][][] 
  []
 
-) <EulerOsc_x0=1.0_v0=0.0_h=0.003.png, id=31, 361.35pt x 361.35pt>
-File: EulerOsc_x0=1.0_v0=0.0_h=0.003.png Graphic file (type png)
+) <EulerOsc_x0_1.0_v0_0.0_h_0.003.png, id=31, 361.35pt x 361.35pt>
+File: EulerOsc_x0_1.0_v0_0.0_h_0.003.png Graphic file (type png)
 
-<use EulerOsc_x0=1.0_v0=0.0_h=0.003.png>
-Package pdftex.def Info: EulerOsc_x0=1.0_v0=0.0_h=0.003.png used on input line 
+<use EulerOsc_x0_1.0_v0_0.0_h_0.003.png>
+Package pdftex.def Info: EulerOsc_x0_1.0_v0_0.0_h_0.003.png used on input line 
 34.
 (pdftex.def)             Requested size: 289.0804pt x 289.0804pt.
- [8 <./EulerOsc_x0=1.0_v0=0.0_h=0.003.png>] <ErrorOsc_x0=1.0_v0=0.0_h=0.003.png
+ [8 <./EulerOsc_x0_1.0_v0_0.0_h_0.003.png>] <ErrorOsc_x0_1.0_v0_0.0_h_0.003.png
 , id=40, 361.35pt x 361.35pt>
-File: ErrorOsc_x0=1.0_v0=0.0_h=0.003.png Graphic file (type png)
+File: ErrorOsc_x0_1.0_v0_0.0_h_0.003.png Graphic file (type png)
 
-<use ErrorOsc_x0=1.0_v0=0.0_h=0.003.png>
-Package pdftex.def Info: ErrorOsc_x0=1.0_v0=0.0_h=0.003.png used on input line 
+<use ErrorOsc_x0_1.0_v0_0.0_h_0.003.png>
+Package pdftex.def Info: ErrorOsc_x0_1.0_v0_0.0_h_0.003.png used on input line 
 53.
 (pdftex.def)             Requested size: 289.0804pt x 289.0804pt.
  [9]
@@ -809,7 +809,7 @@ File: manyErrors.png Graphic file (type png)
  <use manyErrors.png>
 Package pdftex.def Info: manyErrors.png used on input line 63.
 (pdftex.def)             Requested size: 289.0804pt x 289.0804pt.
- [10 <./ErrorOsc_x0=1.0_v0=0.0_h=0.003.png>] <energy.png, id=50, 361.35pt x 361
+ [10 <./ErrorOsc_x0_1.0_v0_0.0_h_0.003.png>] <energy.png, id=50, 361.35pt x 361
 .35pt>
 File: energy.png Graphic file (type png)
 
@@ -824,19 +824,19 @@ Package pdftex.def Info: energyWithErr.png used on input line 77.
 (pdftex.def)             Requested size: 289.0804pt x 289.0804pt.
 
 [12 <./energy.png>] [13 <./energyWithErr.png>]
-<impEulerOsc_x0=1.0_v0=0.0_h=0.003.png, id=66, 361.35pt x 361.35pt>
-File: impEulerOsc_x0=1.0_v0=0.0_h=0.003.png Graphic file (type png)
+<impEulerOsc_x0_1.0_v0_0.0_h_0.003.png, id=66, 361.35pt x 361.35pt>
+File: impEulerOsc_x0_1.0_v0_0.0_h_0.003.png Graphic file (type png)
 
-<use impEulerOsc_x0=1.0_v0=0.0_h=0.003.png>
-Package pdftex.def Info: impEulerOsc_x0=1.0_v0=0.0_h=0.003.png used on input li
+<use impEulerOsc_x0_1.0_v0_0.0_h_0.003.png>
+Package pdftex.def Info: impEulerOsc_x0_1.0_v0_0.0_h_0.003.png used on input li
 ne 94.
 (pdftex.def)             Requested size: 289.0804pt x 289.0804pt.
- [14 <./impEulerOsc_x0=1.0_v0=0.0_h=0.003.png>]
-<impErrorOsc_x0=1.0_v0=0.0_h=0.003.png, id=71, 361.35pt x 361.35pt>
-File: impErrorOsc_x0=1.0_v0=0.0_h=0.003.png Graphic file (type png)
+ [14 <./impEulerOsc_x0_1.0_v0_0.0_h_0.003.png>]
+<impErrorOsc_x0_1.0_v0_0.0_h_0.003.png, id=71, 361.35pt x 361.35pt>
+File: impErrorOsc_x0_1.0_v0_0.0_h_0.003.png Graphic file (type png)
 
-<use impErrorOsc_x0=1.0_v0=0.0_h=0.003.png>
-Package pdftex.def Info: impErrorOsc_x0=1.0_v0=0.0_h=0.003.png used on input li
+<use impErrorOsc_x0_1.0_v0_0.0_h_0.003.png>
+Package pdftex.def Info: impErrorOsc_x0_1.0_v0_0.0_h_0.003.png used on input li
 ne 100.
 (pdftex.def)             Requested size: 289.0804pt x 289.0804pt.
 
@@ -845,7 +845,7 @@ File: impEnergy.png Graphic file (type png)
  <use impEnergy.png>
 Package pdftex.def Info: impEnergy.png used on input line 106.
 (pdftex.def)             Requested size: 289.0804pt x 289.0804pt.
- [15 <./impErrorOsc_x0=1.0_v0=0.0_h=0.003.png>]
+ [15 <./impErrorOsc_x0_1.0_v0_0.0_h_0.003.png>]
 <impEnergyWithErr.png, id=77, 361.35pt x 361.35pt>
 File: impEnergyWithErr.png Graphic file (type png)
  <use impEnergyWithErr.png>
@@ -887,8 +887,8 @@ Package pdftex.def Info: symEnergy.png used on input line 140.
  [21 <./allPhaseSpace.png>] [22 <./symEnergy.png>]
 (./Homework4.aux) ) 
 Here is how much of TeX's memory you used:
- 4382 strings out of 494447
- 57962 string characters out of 6166767
+ 4384 strings out of 494447
+ 57990 string characters out of 6166767
  164550 words of memory out of 5000000
  7653 multiletter control sequences out of 15000+600000
  10981 words of font info for 40 fonts, out of 8000000 for 9000
