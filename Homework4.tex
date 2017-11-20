@@ -31,7 +31,7 @@
 We use the explicit Euler Method equations $x_{i+1}=x_i+hv_i$ and $v_{i+1} = v_i-hx_i$ and iterate through them with $h=\frac{\pi}{1000}$. Our initial conditions are set to $x(0) = 1$ and $v(0) = 0$.
 
 \begin{center}
-\includegraphics[scale=0.8]{{EulerOsc_x0=1.0_v0=0.0_h=0.003}.png}
+\includegraphics[scale=0.8]{{EulerOsc_x0_1.0_v0_0.0_h_0.003}.png}
 \end{center}
 
 \section{Analytic Solution to Simple Harmonic Oscillator}
@@ -50,7 +50,7 @@ Additionally, if $\frac{k}{m} = 1$ as given in the problem, the solution is $x(t
 We plot the global error $x_{analytic}(t_i) - x_i$ and $v_{analytic}(t_i) - v_i$.
 
 \begin{center}
-\includegraphics[scale=0.8]{{ErrorOsc_x0=1.0_v0=0.0_h=0.003}.png}
+\includegraphics[scale=0.8]{{ErrorOsc_x0_1.0_v0_0.0_h_0.003}.png}
 \end{center}
 
 We can see the amplitude of the error increases linearly as $t$ increases, but the error is relatively small on this range of values. The fact that we chose a small $h=\frac{\pi}{1000}$ means that our approximation is quite accurate.
@@ -91,13 +91,13 @@ which reduces to $$\left( \begin{array}{c} x_{i+1}\\v_{i+1} \end{array} \right) 
 Here we will look at graphics for the implicit Euler method calculated with $h=\frac{\pi}{1000}$. All of the figures are comparable to those shown for the explicit Euler method.
 
 \begin{center}
-\includegraphics[scale=0.8]{{impEulerOsc_x0=1.0_v0=0.0_h=0.003}.png}
+\includegraphics[scale=0.8]{{impEulerOsc_x0_1.0_v0_0.0_h_0.003}.png}
 \end{center}
 
 Here we see that the explicit and implicit Euler methods each give sinusoids, but while the explicit Euler method shows an increasing amplitude, the implicit Euler method's amplitude decreases over time.
 
 \begin{center}
-\includegraphics[scale=0.8]{{impErrorOsc_x0=1.0_v0=0.0_h=0.003}.png}
+\includegraphics[scale=0.8]{{impErrorOsc_x0_1.0_v0_0.0_h_0.003}.png}
 \end{center}
 
 When we analyze the error from the implicit Euler method, we see that the magnitude is identical to that of the explicit method. This means the implicit and explicit methods have the same rate of increase in error, and that one just is decreasing away from the actual solution and one is increasing away from it.
